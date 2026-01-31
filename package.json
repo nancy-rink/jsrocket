@@ -1,0 +1,26 @@
+{
+  "name": "market-research-agent",
+  "version": "1.0.0",
+  "description": "An AI-powered market research agent for competitive analysis, industry trends, and market insights",
+  "main": "src/index.js",
+  "bin": {
+    "market-research": "./src/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test src/**/*.test.js"
+  },
+  "keywords": [
+    "market-research",
+    "competitive-analysis",
+    "industry-trends",
+    "ai-agent",
+    "research-automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
